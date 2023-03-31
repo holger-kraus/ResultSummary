@@ -230,7 +230,7 @@ align-items:center;
 .continue_button {
   margin-top: 3.625rem;
   border: 0;
-  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  background: #303B59;
   border-radius: 8rem;
   width: var(--button-width);
   height: 3.5rem;
@@ -241,5 +241,9 @@ align-items:center;
   line-height: 1.125rem;
   letter-spacing: 0;
   text-align: center;
+}
+
+.continue_button:hover {
+background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
 }
 
